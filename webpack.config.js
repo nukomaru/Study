@@ -18,6 +18,10 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    contentBase: path.resolve(__dirname, "dist"), // distディレクトリのファイルを確認する
+    port: 8080, // 8080ポートを利用
+  },
   resolve: {
     extensions: ['.js', '.jsx'] // jsファイル, jsxファイルを対象とする
   }
