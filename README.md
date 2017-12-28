@@ -24,6 +24,8 @@
    - package.jsonの作成
 
 ### パッケージインストール
+ - `yarn add jQuery`
+   - jQueryのインストール
  - `yarn add react react-dom`
    - Reactのインストール
  - `yarn add --dev webpack babel-loader babel-core babel-preset-react babel-preset-es2015`
