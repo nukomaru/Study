@@ -22,6 +22,8 @@
 ### 設定ファイル作成
  - `yarn init -y`
    - package.jsonの作成
+ - `yarn eslint --init`
+   - .eslintrc.jsonの作成
 
 ### パッケージインストール
  - `yarn add jQuery`
@@ -33,9 +35,15 @@
    - --devオプションは開発環境で利用するモジュールをインストール、package.jsonに記録するときのためのオプション
  - `yarn add --dev webpack-dev-server`
    - webpack-dev-serverのインストール(ローカルサーバ作成のため)
+ - `yarn add --dev eslint`
+   - ESLintのインストール
+ - `yarn add --dev eslint-plugin-react`
+   - Reactのためのパッケージのインストール
  
 ### 実行コマンド
  - `yarn webpack`
    - バンドル実行
  - `yarn webpack-dev-server`(設定ファイルの更新により以降`yarn start`で代用可能)
    - サーバ起動
+ - `yarn eslint ファイル名`
+   - 対象ファイルの構文をチェック
