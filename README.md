@@ -26,6 +26,8 @@
    - .eslintrc.jsonの作成
 
 ### パッケージインストール
+ - `yarn`
+   - package.jsonに記載しているモジュールのインストール
  - `yarn add jQuery`
    - jQueryのインストール
  - `yarn add react react-dom`
