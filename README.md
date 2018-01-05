@@ -41,6 +41,8 @@
    - ESLintのインストール
  - `yarn add --dev eslint-plugin-react`
    - Reactのためのパッケージのインストール
+ - `yarn add material-ui react-tap-event-plugin`
+   - Material-UIのインストール
  
 ### 実行コマンド
  - `yarn webpack`
