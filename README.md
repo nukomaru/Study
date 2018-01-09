@@ -43,6 +43,8 @@
    - Reactのためのパッケージのインストール
  - `yarn add material-ui react-tap-event-plugin`
    - Material-UIのインストール
+ - `yarn add react-router`
+   - React-Routerのインストール
  
 ### 実行コマンド
  - `yarn webpack`
