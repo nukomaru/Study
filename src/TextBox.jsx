@@ -1,12 +1,6 @@
 import React from 'react'
-export default class TextBox extends React.Component {
-  constructor(props){
-    super(props);
-  }
+const TextBox = (props) => (
+  <input type="textbox" value={props.title} onChange={props.onChange}></input>
+)
 
-  render(){
-    return (
-      <input type="textbox" value={this.props.title} onChange={this.props.onChange}></input>
-    )
-  }
-}
+export default TextBox
