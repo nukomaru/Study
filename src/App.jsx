@@ -9,14 +9,13 @@ export default class App extends React.Component {
 
     this.state = {
         title: '',
-        open: false
     };
   }
 
   render(){
     return (
         <div>
-            <NavBar onToggle={() => this.handleToggle()} open={this.state.open}/>
+            <NavBar />
             <Hello title={this.state.title}/>
             <TextBox title={this.state.title} onChange={this.onChange.bind(this)}/>
         </div>
@@ -25,11 +24,5 @@ export default class App extends React.Component {
 
   onChange(event){
     this.setState({title: event.target.value});
-  }
-
-  handleToggle() {
-    this.setState({
-      open: !this.state.open
-    })
   }
 }
