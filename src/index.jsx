@@ -9,9 +9,9 @@ injectTapEventPlugin();
 ReactDOM.render(
   <div>
     <Router>
-    <MuiThemeProvider>
-      <App />
-    </MuiThemeProvider>
+      <MuiThemeProvider>
+        <App />
+      </MuiThemeProvider>
     </Router>
   </div>
   ,
