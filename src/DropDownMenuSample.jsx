@@ -17,8 +17,8 @@ export default class DropDownMenuSample extends React.Component {
     render() {
       return (
         <DropDownMenu value={this.state.value} onChange={this.handleChange.bind(this)}>
-            <MenuItem value={"○"} primaryText="○" />
-              <MenuItem value={"×"} primaryText="×" />
+          <MenuItem value={"○"} primaryText="○" />
+          <MenuItem value={"×"} primaryText="×" />
         </DropDownMenu>
       )
     }
