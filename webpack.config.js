@@ -24,5 +24,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'] // jsファイル, jsxファイルを対象とする
-  }
+  },
+  devtool: 'inline-source-map'
 };
