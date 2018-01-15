@@ -1,6 +1,6 @@
 import React from 'react'
-import Hello from './Hello'
-import TextBox from './TextBox'
+import TextView from '../components/TextView'
+import TextBox from '../components/TextBox'
 
 export default class Text extends React.Component {
   constructor(props) {
@@ -14,7 +14,7 @@ export default class Text extends React.Component {
   render(){
     return (
         <div>
-            <Hello title={this.state.title}/>
+            <TextView title={this.state.title}/>
             <TextBox title={this.state.title} onChange={this.onChange.bind(this)}/>
         </div>
     )

@@ -1,6 +1,4 @@
 import React from 'react'
-import Hello from './Hello'
-import TextBox from './TextBox'
 import NavBar from './NavBar'
 import Body from './Body'
 

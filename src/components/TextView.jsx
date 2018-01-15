@@ -1,6 +1,6 @@
 import React from 'react'
-const Hello = (props) => (
+const TextView = (props) => (
   <h1>{props.title}</h1>
 )
 
-export default Hello
+export default TextView

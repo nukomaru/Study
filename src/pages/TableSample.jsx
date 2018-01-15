@@ -1,7 +1,7 @@
 import React from 'react'
 import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
 import MenuItem from 'material-ui/MenuItem';
-import DropDownMenu from './DropDownMenuSample';
+import DropDownMenu from '../components/DropDownMenuSample';
 
 const TableSample = () => (
   <Table>

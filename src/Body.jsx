@@ -1,8 +1,8 @@
 import React from 'react'
-import Home from './Home'
-import About from './About'
-import Text from './Text'
-import TableSample from './TableSample'
+import Home from './pages/Home'
+import About from './pages/About'
+import Text from './pages/Text'
+import TableSample from './pages/TableSample'
 import {Route, Switch} from 'react-router-dom'
 
 const Body = () => (
