@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './pages/Home'
 import About from './pages/About'
 import Text from './pages/Text'
-import TableSample from './pages/TableSample'
+import TableSample from './pages/TestTable'
 import {Route, Switch} from 'react-router-dom'
 
 const Body = () => (
@@ -11,7 +11,7 @@ const Body = () => (
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/text" component={Text} />
-      <Route path="/table" component={TableSample} />
+      <Route path="/test_table" component={TableSample} />
     </div>
   </Switch>
 );
