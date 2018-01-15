@@ -31,6 +31,7 @@ export default class NavBar extends Component {
           <Link to="/about"><MenuItem onClick={() => this.handleClose()}>About</MenuItem></Link>
           <Link to="/text"><MenuItem onClick={() => this.handleClose()}>Text</MenuItem></Link>
           <Link to="/test_table"><MenuItem onClick={() => this.handleClose()}>TestTable</MenuItem></Link>
+          <Link to="/display"><MenuItem onClick={() => this.handleClose()}>Display</MenuItem></Link>
         </Drawer>
       <AppBar title="React Study!!!" onLeftIconButtonClick={() => this.handleToggle()}/>
       </div>
