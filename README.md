@@ -47,6 +47,8 @@
    - React-Routerのインストール
  - `yarn add redux`
    - Reduxのインストール
+ - `yarn add react-redux`
+   - ReduxとReactを連携させるためのパッケージのインストール
  
 ### 実行コマンド
  - `yarn webpack`
