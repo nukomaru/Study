@@ -45,6 +45,8 @@
    - Material-UIのインストール
  - `yarn add react-router`
    - React-Routerのインストール
+ - `yarn add redux`
+   - Reduxのインストール
  
 ### 実行コマンド
  - `yarn webpack`
