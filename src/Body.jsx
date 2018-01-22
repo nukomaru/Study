@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from './pages/Home'
-import About from './pages/About'
-import Text from './pages/Text'
-import TableSample from './pages/TestTable'
+import Home from './containers/Home'
+import About from './containers/About'
+import Text from './containers/Text'
+import TableSample from './containers/TestTable'
 import {Route, Switch} from 'react-router-dom'
-import Display from './pages/Display'
+import Display from './containers/Display'
 
 const Body = () => (
   <Switch>
