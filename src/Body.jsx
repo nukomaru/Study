@@ -8,13 +8,11 @@ import Display from './pages/Display'
 
 const Body = () => (
   <Switch>
-    <div>
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/text" component={Text} />
-      <Route path="/test_table" component={TableSample} />
-      <Route path="/display" component={Display} />
-    </div>
+    <Route exact path="/" component={Home} />
+    <Route path="/about" component={About} />
+    <Route path="/text" component={Text} />
+    <Route path="/test_table" component={TableSample} />
+    <Route path="/display" component={Display} />
   </Switch>
 );
 
