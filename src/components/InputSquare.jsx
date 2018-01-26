@@ -21,10 +21,12 @@ export default class InputSquare extends Component{
   
   render() {
     return (
+      <div>
+      <TextField onChange={this.onChange} name="textbox"/>
       <Paper style={style} zDepth={1}>
-        <TextField onChange={this.onChange} name="textbox"/>
         {this.state.value}
       </Paper>
+      </div>
     );
   }
 }
